@@ -6,6 +6,18 @@ Train T5 distillation models. Current goal to provide training tool for T5 Encod
 
 The idea is we can make a projection from the student model encoder logits to the teacher model encoder logits. This will allow us to utilize pre-trained T5 models of smaller sizes and project those logits/embeddings to the larger teacher model. This allows us to bridge the gap into drop in replacement for larger models. For usage in models like Flux, Stable Diffusion 3.
 
+## Install
+
+Install [uv](https://docs.astral.sh/uv/) for package management.
+
+Using uv, sync the dependencies.
+
+```
+uv sync --frozen --no-install-project --no-dev
+```
+
+_NOTE_ if you are having any issues, let me know. I am trying out `uv` but interested in any issues with syncing dependencies or usage.
+
 # Usage
 
 **Note** A work in progress so you should also read the code and be aware of how it works. Generally settings should be applied as expected but hasn't gone through enough testing to be sure. PR's are open for improvements or adding better functionality.
