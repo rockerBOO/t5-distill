@@ -18,7 +18,7 @@ uv sync --frozen --no-install-project --no-dev
 
 _NOTE_ if you are having any issues, let me know. I am trying out `uv` but interested in any issues with syncing dependencies or usage.
 
-# Usage
+## Usage
 
 **Note** A work in progress so you should also read the code and be aware of how it works. Generally settings should be applied as expected but hasn't gone through enough testing to be sure. PR's are open for improvements or adding better functionality.
 
@@ -37,13 +37,13 @@ log_with="wandb"
 accelerate launch main.py --teacher $teacher --student $student --seed $seed --batch_size $batch_size --epochs $epochs --optimizer_args "$optimizer_args"
 ```
 
-# Development
+## Development
 
 - Pyright typechecking (lossly)
 - Ruff formatting
 - uv for dependency management
 
-# Credits
+## Credits
 
 In no way directly associated with these companies and not in any partnership.
 
