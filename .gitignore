@@ -19,3 +19,4 @@ wandb/
 adapter*.safetensors
 flux-dev.png
 adapter_t5_xl_model.py
+dprint.json
