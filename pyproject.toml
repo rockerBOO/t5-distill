@@ -1,0 +1,23 @@
+[project]
+name = "t5-distill"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate",
+    "bitsandbytes>=0.45.0",
+    "datasets>=3.2.0",
+    "diffusers>=0.32.1",
+    "prodigy-plus-schedule-free",
+    "protobuf>=5.29.3",
+    "sentencepiece>=0.2.0",
+    "setuptools>=75.8.0",
+    "torch==2.4",
+    "transformers>=4.48.0",
+    "wandb>=0.19.3",
+]
+
+[tool.uv.sources]
+prodigy-plus-schedule-free = { git = "https://github.com/LoganBooker/prodigy-plus-schedule-free.git" }
+accelerate = { git = "https://github.com/huggingface/accelerate.git" }
