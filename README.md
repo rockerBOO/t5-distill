@@ -35,7 +35,7 @@ accelerate launch main.py --teacher $teacher --student $student --seed $seed --b
 
 In no way directly associated with these companies and not in any partnership.
 
-Thanks to HuggingFace for providing models
-Thanks to Google for providing T5 models.
-Thanks to Kohya and contributors of sd-scripts for some functionality in this code
-Thanks to blackforestlabs and stabilityai for creating Flux and Stable Diffusion 3
+- Thanks to HuggingFace for providing models weights and model code.
+- Thanks to Google for providing T5 models.
+- Thanks to Kohya and contributors of sd-scripts for some functionality in this code
+- Thanks to blackforestlabs and stabilityai for creating Flux and Stable Diffusion 3
